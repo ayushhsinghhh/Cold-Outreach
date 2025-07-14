@@ -19,4 +19,4 @@ An intelligent automation tool that streamlines your entire cold outreach proces
 
 ##  Deployment
 
-Deployed on Streamlit Cloud with secure secrets management.
+Deployed on Streamlit Cloud with secure secrets management. https://cold-outreach.streamlit.app/
