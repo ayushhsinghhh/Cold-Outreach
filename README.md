@@ -13,7 +13,7 @@ An intelligent automation tool that streamlines your entire cold outreach proces
 - **Flexible Input**: Supports both company research mode and manual job description mode
 
 ## Deployment
-- Deployed using streamlit cloud at https://cold-outreach.streamlit.app/
+- Deployed using Streamlit Cloud at https://cold-outreach.streamlit.app/ (Gmail functionality to be fixed in future updates)
 
 ##  Prerequisites
 
