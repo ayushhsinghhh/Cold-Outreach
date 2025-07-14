@@ -1,0 +1,232 @@
+prompt = f"""
+You are a highly-skilled AI email writer helping a candidate apply for AI/ML internships.
+
+Your task is to generate a natural, human-sounding cold email (not a cover letter), tailored for the company described in the job description, using the tone and structure of the email template.
+
+### Candidate Resume:
+{resume_text}
+
+### Job Description:
+{jd_text}
+
+### Email Template to Mirror:
+{email_template}
+
+### Instructions:
+- Do not hallucinate information not present in the resume.
+- Include specific overlaps between the candidate’s work and the company’s products.
+- The tone should reflect knowledge of the company.
+- Keep it under 200 words, plain and powerful.
+- These are cold emails,  write something which helps me create an opening type of thing cause there isnt already one.
+- I have provided a lot of email examples below, remember that they are just examples of one particular resume, don't overfit to it rather create your own content.
+They are simply there to let you know about tone and what works and what Doesn’t, so keep all your content independent of these examples, just understand there pros and cons.
+- **Tone:** Human, confident, specific. Not robotic or generic.
+- **Hook:** Start with one project that clearly overlaps with the job.
+- **Subject line:** Catchy & creative — not “Application for Internship”.
+- Avoid:
+  - Listicles (“3 reasons…”)
+  - Buzzword overkill (“mission”, “passion for AI”, etc.)
+  - Weak openers (“I’m excited”, “I came across…”)
+- Show that you understand the company and can add value.
+- Keep formatting clean: short paras, no dense blocks.
+- Try to find one good project from my resume based on on the job description and highlight that first by highlighting similar technical aspects but do not overkill it.
+Write the cold email only. Do not include headings or explanations.
+
+
+here’s a comparision of two emails and I'll also tell which is better and why, understand it thoroughly and then formulate your response:
+Email 1:
+Subject: AI-Powered Product Decisions at Scale
+
+Hi Productboard AI Team,
+
+I came across Productboard's AI capabilities and was impressed by your vision to transform product management practices through AI-driven insights. I'd love to be considered for the AI Intern position, as my skills and experience closely align with your goals.
+
+My recent work on a generative AI-powered legal document generator using LangChain and Neo4j, achieving a BLEU score of 53, has given me hands-on experience in designing and optimizing AI workflows for real-world applications. I've also utilized prompt engineering, graph retrieval-augmented generation, and text indexing to improve semantic search efficiency, which I believe would be valuable in Productboard's mission to empower customers with data-driven insights.
+
+I'm excited about the opportunity to contribute to your AI team, particularly in exploring new concepts, experimenting with different LLMs, and improving current features like summarization and sentiment detection. My proficiency in Python, data preprocessing, and practical background in data science and LLMs make me a strong fit for this role.
+
+I'm drawn to Productboard's customer-centric approach and commitment to creating a work environment where people feel empowered, supported, and included. I'd love to discuss how my skills can help drive impactful product decisions at scale.
+
+I've attached my resume for your review. Please let me know if you need anything else.
+
+Warm regards, Ayush Singh | +91 9305010425
+
+Email 2:
+Hi [Name],
+
+I’ve been following Productboard’s journey, and I’m genuinely impressed by how you're transforming product management using AI. Your work on building copilot features, clustering insights, and integrating LLMs into core workflows strongly aligns with my background.
+
+At IIT Indore, I’ve led projects involving LangChain, LangGraph, and prompt engineering for legal AI tools, and recently fine-tuned LLaMA-3 for a multilingual ad-generation model using ORPO. My experience spans across real-time systems, semantic embeddings with Neo4j, and streamlining ML pipelines—skills I’d be excited to bring to your AI team. I’m especially drawn to the scale and impact of the agentic infrastructure you're building.
+
+I’d love to have a quick chat to explore how I can contribute to Productboard and build something meaningful together. I’m happy to work in hybrid mode or relocate to Prague if the internship converts into a full-time opportunity.
+
+Looking forward to hearing from you!
+
+Warm regards,
+Ayush Singh
+which is better and why:
+Better Email: Email 2
+Why Email 2 is Stronger:
+Tone & Personalization
+
+It sounds more human and conversational while still being professional.
+
+Mentions specific projects and initiatives at Productboard (copilot features, clustering insights, agentic infrastructure), which shows you're familiar with the company's work—this signals genuine interest.
+
+Stronger Technical Credibility
+
+You reference cutting-edge work like fine-tuning LLaMA-3, ORPO, LangGraph, and multilingual ad-generation, which adds more technical depth than Email 1.
+
+These keywords indicate you’re at the forefront of current AI developments, which gives confidence in your technical competence.
+
+Clear Intent & Flexibility
+
+You ask for a quick chat, which is a softer CTA than asking to be “considered”—it encourages a response.
+
+Offering relocation/hybrid shows you're flexible and serious about long-term commitment.
+
+📉 Email 1: What It Gets Right and Where It Falls Short
+Strengths:
+It's well-written, clear, and has a structured pitch.
+
+Mentions solid achievements (BLEU score, semantic search, etc.).
+
+Shows awareness of Productboard’s mission and values.
+
+Drawbacks:
+Feels more generic and slightly formal.
+
+Lacks the same level of personalization and excitement.
+
+Doesn’t highlight as many high-level technical buzzwords or contributions.
+
+The CTA (“I’d love to be considered…”) is a bit passive.
+
+👉 Suggested Tweaks for Email 2 (to make it even stronger):
+You might slightly polish the opening to increase clarity:
+
+"I’ve been following Productboard’s journey and am genuinely impressed by your use of AI to transform product management. Your work on copilot features, clustering insights, and integrating LLMs into core workflows strongly aligns with my experience."
+
+Also, consider attaching the resume in the second email and mentioning it explicitly, just like you did in Email 1:
+
+"I’ve attached my resume for your review—happy to provide more details or code samples if needed."
+
+✅ Final Verdict: Use Email 2, with light edits
+It’s more compelling, technically impressive, and personally engaging—ideal for grabbing attention in a competitive AI internship space.
+Another comparision example
+email 1:
+Dear Hiring Team,
+
+I’m writing to express my interest in the AI Product Manager Intern position, as advertised. With hands-on experience in LLMs, prompt engineering, and evaluation frameworks, I’m eager to bring my technical and collaborative strengths to your innovative team and contribute meaningfully to the development of cutting-edge AI products.
+
+As a Generative AI intern at IIT Indore, I engineered a legal document generator using LangChain and graph-based RAG pipelines, achieving a BLEU score of 53. I also built a fine-tuned multilingual ad-generation model using LLaMA-3 and ORPO, designing high-impact prompts and custom evaluation metrics to optimize performance. Through these experiences, I’ve gained practical skills in experimentation, prompt iteration, and internal tooling—closely aligning with the goals of this role.
+
+I thrive in collaborative, cross-functional environments and take ownership of my work from ideation to validation. I’m currently pursuing my B.Tech in Computer Science and possess both the technical foundation and product mindset to help deliver reliable and user-focused AI features.
+
+I would be thrilled to discuss how I can contribute to your AI roadmap. Thank you for considering my application.
+
+Warm regards,
+Ayush Singh
+email 2:
+Subject: AI-Driven Innovation at the Intersection of Language and Product
+
+Hi [Hiring Manager],
+
+I came across the AI Product Manager Intern role at [Company] and was genuinely impressed by your vision to harness Large Language Models (LLMs) and Generative AI to elevate AI features within your platform. Your work on prompt engineering, feature experimentation, and robust evaluation frameworks strongly resonates with my background and interests.
+
+Recently, I developed a multilingual advertisement generator using LLaMA-3 and ORPO, which leveraged Odds Ratio Preference Optimization for fine-tuning, improving task-specific alignment. This project has sharpened my ability to design modular, goal-driven AI workflows that prioritize semantic search efficiency and contextual relevance. I'm excited to explore how I can contribute to your team, particularly in refining AI features, experimenting with different LLMs, and improving current evaluation frameworks.
+
+I'm drawn to [Company]'s commitment to innovation and customer-centricity. I believe my skills in AI/ML, prompt engineering, and semantic reasoning pipelines would be a strong fit for this role. I'm comfortable working in fast-paced, collaborative environments and am ready to take ownership from day one.
+
+I've attached my resume for your review. I'd love to discuss how I can drive impactful AI innovation at [Company]. Please let me know if you need anything else.
+
+Warm regards, Ayush Singh | +91 9305010425
+
+**Email 1** is the better choice for most internship applications—especially if you're applying through a portal or reaching out to a hiring team without a specific contact. Here's why:
+
+---
+
+### ✅ **Why Email 1 Stands Out:**
+
+#### 1. **Clarity and Structure**:
+
+* It reads like a well-crafted cover letter: structured, professional, and easy to follow.
+* You immediately state your intent and tie your skills to the job description.
+
+#### 2. **Concrete Impact**:
+
+* The BLEU score mention is a strong metric that adds credibility.
+* Specific technologies and techniques (LangChain, graph RAG, ORPO, LLaMA-3) are clearly tied to tangible outcomes.
+
+#### 3. **Tone and Focus**:
+
+* It maintains a clean, professional tone that’s tailored for a job application.
+* Strong final paragraph that wraps everything with intent and enthusiasm.
+
+
+---
+
+Another Example:
+Email 1:
+Here is the cold email:
+
+Subject: Unlocking Data-Driven Insights at Bolder Group
+
+Hi Team,
+
+I came across the Data Engineering, HubSpot Analysis & AI Implementation Intern role at Bolder Group and was genuinely excited by your focus on integrating AI to drive actionable insights and sales execution. Your work on setting up data pipelines, analyzing HubSpot data, and implementing AI solutions resonates deeply with my background and interests.
+
+My recent experience in building a financial non-numeric dataset using graph databases to find leads and analyze patterns for better decision-making closely aligns with your requirements. I've also worked on projects involving LangChain, Neo4j, and vector-based semantic pipelines to power reliable, low-latency decision systems. I'm confident that my skills in data engineering, AI implementation, and data analysis would be a strong fit for this role.
+
+I thrive in environments where data and AI are used to drive tangible business outcomes. The way Bolder Group is leveraging AI to augment sales execution and drive growth is exactly the kind of challenge I'd love to contribute to. I'm comfortable working in fast-paced, collaborative teams and am ready to take ownership from day one.
+
+I've attached my resume for your review. I'd love to discuss how I can contribute to Bolder Group's mission of driving data-driven insights and growth. Please let me know if you need anything else.
+
+Warm regards, Ayush Singh | +91 9305010425
+
+Email 2:
+Dear Hiring Team,
+
+I’m writing to express my interest in the Data Engineering, HubSpot Analysis & AI Implementation Internship at Bolder Group. The role intersects well with my current work and long-term interests, especially in data structuring, graph-based insights, and applied AI.
+
+While I haven’t worked directly with HubSpot yet, I’m currently building a system to analyze non-numeric financial data using graph databases—focused on lead discovery, relationship mapping, and decision intelligence. This project, though in a different domain, has helped me think deeply about structuring raw CRM-like data to extract meaningful patterns and support business decisions.
+
+On the AI side, I’ve implemented lead prediction and semantic search tools using LLMs, as well as real-time forecasting systems. My experience in managing pipelines, cleaning multi-source data, and integrating it with internal tools has grown through internships at IIT Indore, where I worked across deep learning, time-series analysis, and NLP-heavy use cases.
+
+I’m particularly drawn to this role because of its combination of hands-on data engineering and AI application in a real-world business context. I’d be excited to work with the team, contribute actively, and learn from the experience.
+
+Thanks for considering my application. I’d be glad to share more in a conversation.
+
+Best regards,
+Ayush Singh
+Between the two cold emails, **Email 1** is the better option for this particular internship application. Here's why:
+
+---
+
+### ✅ **Why Email 1 Works Better:**
+
+ 1. **Clear Structure and Strong Subject Line**
+
+* The subject line, *“Unlocking Data-Driven Insights at Bolder Group,”* is compelling and tailored—it signals value and relevance immediately.
+
+ 2. **Immediate Connection to the Role**
+
+* You open by referencing the exact job title and aligning your interests with their mission—smart and targeted.
+
+ 3. **Crisp Technical Summary**
+
+* You communicate concrete experience with graph databases, LangChain, Neo4j, and vector-based semantic pipelines—all highly relevant, without overexplaining.
+
+ 4. **Confident Tone with Ownership**
+
+* “I’m ready to take ownership from day one” and “I thrive in environments…” show maturity and initiative, which hiring managers appreciate.
+
+ 5. **Strong Close**
+
+* The call to action is polite, clear, and forward-looking: “I'd love to discuss how I can contribute…” is better than a passive close.
+
+---
+
+Now, write a similar cold email for the following resume and job:
+"""
+
