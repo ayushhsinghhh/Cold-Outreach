@@ -5,12 +5,12 @@ An intelligent automation tool that streamlines your entire cold outreach proces
 
 ##  Features
 
-- ** Intelligent Company Research**: Automatically finds company websites and scrapes relevant information
-- ** Founder Discovery**: Identifies company founders and key personnel using AI
-- ** AI-Powered Email Generation**: Creates personalized cold emails using Groq's Llama models
-- ** Gmail Integration**: Send emails directly through the app with secure authentication
-- ** Resume Processing**: Extracts and analyzes your resume content from PDF files
-- ** Flexible Input**: Supports both company research mode and manual job description mode
+- **Intelligent Company Research**: Automatically finds company websites and scrapes relevant information
+- **Founder Discovery**: Identifies company founders and key personnel using AI
+- **AI-Powered Email Generation**: Creates personalized cold emails using Groq's Llama models
+- **Gmail Integration**: Send emails directly through the app with secure authentication
+- **Resume Processing**: Extracts and analyzes your resume content from PDF files
+- **Flexible Input**: Supports both company research mode and manual job description mode
 
 ## Deployment
 - Deployed using streamlit cloud at https://cold-outreach.streamlit.app/
@@ -31,43 +31,6 @@ Before you begin, ensure you have the following:
 
 ```bash
 git clone https://github.com/ayushhsinghhh/Cold-Outreach.git
-cd Cold-Outreach
-
-cat > README.md << 'EOF'
-# ��� Cold Outreach Automation Tool
-
-An intelligent automation tool that streamlines your entire cold outreach process - from company research to personalized email generation and delivery.
-
-![Cold Outreach Tool](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![AI](https://img.shields.io/badge/Groq-000000?style=for-the-badge&logo=ai&logoColor=white)
-
-##  Features
-
-- ** Intelligent Company Research**: Automatically finds company websites and scrapes relevant information
-- ** Founder Discovery**: Identifies company founders and key personnel using AI
-- ** AI-Powered Email Generation**: Creates personalized cold emails using Groq's Llama models
-- ** Gmail Integration**: Send emails directly through the app with secure authentication
-- ** Resume Processing**: Extracts and analyzes your resume content from PDF files
-- ** Flexible Input**: Supports both company research mode and manual job description mode
-
-##  Prerequisites
-
-Before you begin, ensure you have the following:
-
-- **Python 3.8 or higher** installed on your system
-- **Git** for cloning the repository
-- **A Groq API key** (free from [console.groq.com](https://console.groq.com))
-- **Gmail account** with 2FA enabled (for email sending)
-- **Code editor** (VS Code, PyCharm, etc.)
-
-##  Installation & Setup
-
-### Step 1: Clone the Repository
-
-```bash
-git clone https://github.com/ayushhsinghhh/Cold-Outreach.git
-cd Cold-Outreach
 ```
 
 ### Step 2: Create Virtual Environment
